@@ -1,0 +1,9 @@
+export { Header } from './Header';
+export { HeroSection } from './HeroSection';
+export { TrustBar } from './TrustBar';
+export { AboutSection } from './AboutSection';
+export { ServicesSection } from './ServicesSection';
+export { WhySection } from './WhySection';
+export { ProjectsSection } from './ProjectsSection';
+export { CTASection } from './CTASection';
+export { Footer } from './Footer';
