@@ -1,6 +1,12 @@
 import { Mail, Phone, MapPin, Linkedin, Facebook, Twitter, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+const SOCIAL_LINKS = [
+  { icon: Linkedin, label: 'LinkedIn', url: 'https://www.linkedin.com' },
+  { icon: Facebook, label: 'Facebook', url: 'https://www.facebook.com' },
+  { icon: Twitter, label: 'Twitter', url: 'https://twitter.com' },
+];
+
 export function Footer() {
   return (
     <footer className="bg-white border-t border-gray-100">
@@ -25,14 +31,12 @@ export function Footer() {
               Petroleum Production Services Namibia — Your trusted indigenous energy services partner backed by Petrolog Group.
             </p>
             <div className="flex gap-3">
-              {[
-                { icon: Linkedin, label: 'LinkedIn' },
-                { icon: Facebook, label: 'Facebook' },
-                { icon: Twitter, label: 'Twitter' },
-              ].map((social) => (
+              {SOCIAL_LINKS.map((social) => (
                 <a
                   key={social.label}
-                  href="#"
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.label}
                   className="w-10 h-10 flex items-center justify-center border border-gray-200 rounded-xl text-[#4A6FA5] hover:border-[#D4AF37] hover:text-[#D4AF37] hover:bg-[#D4AF37]/5 transition-all duration-300"
                 >
