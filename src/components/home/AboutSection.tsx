@@ -127,7 +127,7 @@ export function AboutSection() {
                 <div className="grid grid-cols-3 gap-4">
                   {[
                     { value: '40+', label: 'Years Legacy' },
-                    { value: '100%', label: 'Namibian Owned' },
+                    { value: '100%', label: 'Namibian Backing' },
                     { value: '24/7', label: 'Operations' },
                   ].map((stat, idx) => (
                     <div key={idx} className="text-center bg-white/10 backdrop-blur-md rounded-xl py-4 border border-white/20">
