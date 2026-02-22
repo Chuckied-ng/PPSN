@@ -18,7 +18,7 @@ module.exports = {
   	},
   	extend: {
   		fontFamily: {
-  			'display': ['Syne', 'sans-serif'],
+  			'display': ['Archivo Black', 'sans-serif'],
   			'heading': ['Space Grotesk', 'sans-serif'],
   			'body': ['Manrope', 'sans-serif'],
   			'mono': ['JetBrains Mono', 'monospace'],
