@@ -28,7 +28,7 @@ export function Footer() {
               </div>
             </div>
             <p className="font-body text-sm text-[#4A6FA5] mb-6 leading-relaxed max-w-xs">
-              Petroleum Production Services Namibia — Your trusted indigenous energy services partner backed by Petrolog Group.
+              Petroleum Production Services Namibia — Your trusted indigenous energy services partner.
             </p>
             <div className="flex gap-3">
               {SOCIAL_LINKS.map((social) => (
@@ -152,8 +152,8 @@ export function Footer() {
             © 2026 PPSN. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-[#4A6FA5]">
-            <span className="font-body text-xs">Part of</span>
-            <span className="font-heading font-bold text-sm text-[#D4AF37]">Petrolog Group</span>
+            <span className="font-body text-xs">PPSN</span>
+            <span className="font-heading font-bold text-sm text-[#D4AF37]">Leadership</span>
           </div>
           <div className="flex gap-6">
             <a href="#" className="font-body text-xs text-[#4A6FA5] hover:text-[#0A1628] transition-colors duration-300">

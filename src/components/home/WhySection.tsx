@@ -6,8 +6,8 @@ import { Award, Users, Shield, Zap, Check } from 'lucide-react';
 const differentiators = [
   {
     icon: Award,
-    title: 'Petrolog Group Heritage',
-    description: '40+ years of proven energy sector leadership across Southern Africa. Our established international partnerships bring world-class technical capability to every project we undertake.',
+    title: 'Industry Leadership',
+    description: '40+ years of proven energy sector expertise. Our established partnerships bring world-class technical capability to every project we undertake.',
     highlights: ['Established 1984', 'Southern Africa Leaders', 'Global Partnerships'],
   },
   {

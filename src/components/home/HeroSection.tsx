@@ -59,8 +59,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="font-body text-lg lg:text-xl text-[#4A6FA5] text-center max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            End-to-end petroleum services with global engineering capability, 
-            backed by Petrolog Group's 40+ years of energy leadership. 100% Namibian backing.
+            End-to-end petroleum services with global engineering capability and 100% Namibian backing.
           </motion.p>
 
           {/* CTA */}

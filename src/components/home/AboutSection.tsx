@@ -66,8 +66,8 @@ export function AboutSection() {
           transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="font-body text-lg text-[#4A6FA5] text-center max-w-3xl mx-auto mb-20 leading-relaxed"
         >
-          PPSN is the indigenous energy services arm of Petrolog Group, delivering comprehensive 
-          petroleum solutions backed by 40+ years of operational excellence.
+          PPSN is an indigenous energy services company delivering comprehensive 
+          petroleum solutions with operational excellence.
         </motion.p>
 
         {/* Two-column layout */}

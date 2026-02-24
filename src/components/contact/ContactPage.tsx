@@ -243,7 +243,7 @@ ${formData.message}
                     </span>
                   </div>
                   <p className="font-body text-xs text-gray-300">
-                    Backed by Petrolog Group's international expertise with deep Namibian roots.
+                    Indigenous Namibian energy services expertise.
                   </p>
                 </div>
               </div>
